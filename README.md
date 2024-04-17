@@ -3,7 +3,7 @@
 [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
 [![CodeQL](https://github.com/frederikgramkortegaard/nox/workflows/CodeQL/badge.svg)](https://github.com/frederikgramkortegaard/nox/actions?query=workflow%3ADependency+Review)
 
-... 
+
 
 ---
 ## Using the Nox compiler
@@ -40,8 +40,13 @@ func int main() {
 }
 ```
 ```bash
->> My color is Green.
+>> My color is Green
 ```
+### Miscellaneous
+- Built-in `string` types similar to C++
+- Default Values for Struct Fields
+- Compile-time logic via. directives: `#some_directive`
+- Functions as first-class citizens
 
 ## Compiling Nox from Source
 It is possible to compile Nox from source, by navigating to the `./src` folder and running `make`. Verbose output from the compilation process such as Abstract Syntax Tree structures or the code generation process can be exposed by using `make debug` instead. 
