@@ -3,7 +3,7 @@
 [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
 [![CodeQL](https://github.com/frederikgramkortegaard/nox/workflows/CodeQL/badge.svg)](https://github.com/frederikgramkortegaard/nox/actions?query=workflow%3ADependency+Review)
 
-
+This project is still under development, as such, the codebase should be considered as a reference to the current status of the compiler, and not as a complete implementation.
 
 ---
 ## Using the Nox compiler
