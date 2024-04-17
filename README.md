@@ -42,6 +42,7 @@ func int main() {
 >> My color is Green
 ```
 ### Miscellaneous
+- the `defer` keyword, which executes a given statement, expression or block at scope-exit
 - Built-in `string` types similar to C++
 - Default Values for Struct Fields
 - Compile-time logic via. directives: `#some_directive`
