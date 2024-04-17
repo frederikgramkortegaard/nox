@@ -1,0 +1,24 @@
+// Ensuring that primitive types function as expected
+
+func int main() {
+
+    a: int = 5;
+    b: char = 'a';
+    c: bool = true;
+    d: float = 5.0;
+    e: str = "hello";
+
+    a *= 2 // OK
+    // a *= b // Error (type mismatch)
+
+    f: int = b + a // OK (implicit conversion)
+
+    g: str = e + " world" // OK (concatenation)
+
+    h: float = d + a // OK (implicit conversion)
+
+    e[0] = b // OK (string indexing is allowed)
+    
+    return 0
+
+}

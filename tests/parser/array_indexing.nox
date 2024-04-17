@@ -1,8 +1,0 @@
-
-
-func int main(){
-    arr: int[] = [1,2] // This is an assignment, so it does something.
-    arr[1] = 3;
-
-    return 0;
-}

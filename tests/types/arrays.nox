@@ -1,0 +1,32 @@
+// Run-through of the array features in the language
+
+func int main(){
+
+    arr1: int[]  // No size specified, so this is a dynamic array
+    arr2: int[5] // Initialize an empty array with a size of five integers
+    
+    // Dynamic arrays with initial values
+    // This sets the size of the array to the number of elements in the initializer
+    arr3: int[] = [1, 2, 3, 4, 5]
+
+    // Static Arrays with initial values and size
+    arr4: int[2] = [1,2]     // OK
+    //arr4: int[2] = [1,2,3] // Error (size mismatch)
+    //arr4: int[3] = [1,2]   // Error (size mismatch)
+
+    // arr5: int[] = [test(), 1, '2'] // Error (type mismatch)
+    
+    arr6: int[]
+    // arr6 = [1,2,3,4,6] // Error (can not assign an array literal to an array outside of its declaration, use indexing!)
+
+    arr4[0] // This is a floating expression, so it does nothing.
+    
+    // Indexing into an array
+    var: int = arr4[0] // OK
+    // var: int = arr4[2] // Error (index out of bounds)
+
+    // Assigning to an array element
+    arr4[0] = 3 // OK
+
+    return 0
+}
