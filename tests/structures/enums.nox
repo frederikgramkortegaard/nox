@@ -1,0 +1,4 @@
+
+func int main() {
+    test: enum EyeColor = EyeColor.Brown;
+}
