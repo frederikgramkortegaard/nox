@@ -1,0 +1,17 @@
+// using the stringify directive to create enum-to-string
+// functions at compile-time, which in turn are used during
+// runtime when calling the str() method on an enum variable.
+
+#enum_strings
+
+enum Colors {
+  Red,
+  Green,
+  Blue
+}
+
+func int main() {
+    my_color: enum Colors = Colors.Green;
+    print("My color is %s\n", my_color.str())
+    return 0;
+}

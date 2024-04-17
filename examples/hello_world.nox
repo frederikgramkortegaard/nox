@@ -1,0 +1,8 @@
+// Basic Hello World program
+
+
+
+func int main() {
+  print("Hello, World!")
+  return 0
+}
