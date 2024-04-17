@@ -50,10 +50,3 @@ func int main() {
 
 ## Requirements
 When compiling Nox from source, it is dependent on the precense of [boost version 1.84.0 ](https://www.boost.org/users/history/version_1_84_0.html). 
-
-## Compiling Nox from Source
-It is possible to compile Nox from source, by navigating to the `./src` folder and running `make`. Verbose output from the compilation process such as Abstract Syntax Tree structures or the code generation process can be exposed by using `make debug` instead. 
-
-```bash 
-$ cd ./src && make
-```
