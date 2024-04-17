@@ -38,9 +38,10 @@ func int main() {
     my_color: enum Colors = Colors.Green;
     print("My color is %s\n", my_color.str())
 }
->>> My color is Green.
 ```
-### 
+```bash
+>> My color is Green.
+```
 
 ## Compiling Nox from Source
 It is possible to compile Nox from source, by navigating to the `./src` folder and running `make`. Verbose output from the compilation process such as Abstract Syntax Tree structures or the code generation process can be exposed by using `make debug` instead. 
