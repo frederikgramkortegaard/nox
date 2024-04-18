@@ -11,7 +11,7 @@ func int main() {
     color_green = Colors.Green
     color_blue = Colors.Blue
 
-    // 1, 3, 5
+    // 0, 3, 5
     print("%d, %d, %d\n", color_red, color_green, color_blue)
 
     return 0
